@@ -1,0 +1,18 @@
+package CGWeek1;
+
+import java.util.Calendar;
+import java.util.Date;
+
+public class DataTypeDemo {
+	
+	public static void main(String[] args)
+	{
+		
+		Date d= new Date();
+		System.out.println(d.getMinutes());
+		Calendar cal= new Calendar();
+		System.out.println(cal.add(d.getDate(),d.getHours()));
+		
+	}
+
+}

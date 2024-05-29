@@ -1,0 +1,33 @@
+package CGWeek1;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class DataTypeDemo {
+	
+	
+	public static void main(String[] args)
+	{ 
+// List<int[]> list = new ArrayList<>(); 
+//		 while(true)
+//		 {
+//			 list.add(new int[100000]);
+//		 }
+//		int[] n=new int[Integer.MAX_VALUE];
+		
+		Pattern mobileNumber= Pattern.compile("[0-10]{10}");
+		Matcher matchmobile= mobileNumber.matcher("1234567890");
+		if(matchmobile.matches())
+		{
+			System.out.println("Valid");
+		}
+		else
+		{
+			System.out.println("invalid");
+		}
+		
+	}
+
+}

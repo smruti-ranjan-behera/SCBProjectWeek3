@@ -1,0 +1,22 @@
+package CGWeek1;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
+public class DataTypeDemo {
+	
+	public static void main(String[] args)
+	{
+		
+		Date d= new Date();
+		d.getTimezoneOffset();
+		SimpleDateFormat sdf= new SimpleDateFormat(MM-dd-yyyy);
+		System.out.println(sdf.format(d));
+		//Calendar cal= new Calendar();
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package CGWeek1;
+
+import java.time.LocalDate;
+import java.time.Year;
+
+public class DataTypeDemo {
+	static List<String> list = new ArrayList<String>(); 
+	
+	public static void main(String[] args)
+	{
+		
+		    
+		 
+		        Integer[] array = new Integer[10000 * 10000]; 
+		    
+		
+	}
+
+}

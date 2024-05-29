@@ -1,0 +1,24 @@
+package CGWeek1;
+
+import java.time.LocalDate;
+import java.time.Year;
+
+public class DataTypeDemo {
+	
+	public static void main(String[] args)
+	{
+		
+		int year= 2023;
+		boolean isLeapYear=Year.of(year).isLeap();
+		System.out.println(isLeapYear);
+		
+		LocalDate locald= LocalDate.now();
+		System.out.println("After 15 days from Today's date"+locald.plusDays(15));
+		System.out.println("Before 2 year from Today's date"+locald.minusYears(2));
+		
+		LocalDate locald2=LocalDate.parse("13-05-2024");
+		System.out.println("After 20 days"+locald2.plusDays(2));
+		
+	}
+
+}

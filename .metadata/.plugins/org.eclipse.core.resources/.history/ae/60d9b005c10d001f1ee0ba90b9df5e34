@@ -1,0 +1,10 @@
+package CGWeek1;
+
+public class DataTypeDemo {
+	
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

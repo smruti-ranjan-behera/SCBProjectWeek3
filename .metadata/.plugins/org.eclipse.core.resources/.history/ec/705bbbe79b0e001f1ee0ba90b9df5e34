@@ -1,0 +1,21 @@
+package CGWeek1;
+
+import java.text.SimpleDateFormat;
+import java.time.Year;
+import java.util.Calendar;
+import java.util.Date;
+
+public class DataTypeDemo {
+	
+	public static void main(String[] args)
+	{
+		
+		int year= 2023;
+		boolean isLeapYear=Year.of(year).isLeap();
+		System.out.println(isLeapYear);
+		
+		
+		
+	}
+
+}
